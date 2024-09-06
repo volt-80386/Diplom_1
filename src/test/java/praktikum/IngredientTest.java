@@ -34,7 +34,6 @@ public class IngredientTest {
         Assert.assertEquals(name, testIngredient.getName());
         Assert.assertEquals(type, testIngredient.getType());
         Assert.assertEquals(price, testIngredient.getPrice(), 0);
-        System.out.println(testIngredient.getPrice());
     }
 
 }

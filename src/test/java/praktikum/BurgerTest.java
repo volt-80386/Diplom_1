@@ -12,11 +12,11 @@ public class BurgerTest {
 
     // Создадим 3 мока - для булки, ингредиента и его типа:
     @Mock
-    Bun testBun;
+    private Bun testBun;
     @Mock
-    Ingredient testIngredient;
+    private Ingredient testIngredient;
     @Mock
-    IngredientType testType;
+    private IngredientType testType;
 
     @Test
     public void testBurger () {

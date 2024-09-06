@@ -9,12 +9,14 @@ public class BunTest {
 
     @Test
     public void testGetNameBun() {
-        Assert.assertEquals("test bun", testBun.getName());
+        String actualBunName = testBun.getName();
+        Assert.assertEquals("test bun", actualBunName);
     }
 
     @Test
     public void testGetPriceBun() {
-        Assert.assertEquals(10, testBun.getPrice(), 0);
+        int actualBunPrice = (int) testBun.getPrice();
+        Assert.assertEquals(10, actualBunPrice, 0);
     }
 
 }
